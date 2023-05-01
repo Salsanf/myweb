@@ -3,7 +3,7 @@
 # website settings
 website:
   title: "Salsa"                                # Your name
-  description: "Gandalf is a renowned wizard and scholar of Middle-earth"   # A brief slogan (optional)
+  description: "Welcome to Salsa site"   # A brief slogan (optional)
   image: img/salsa.jpg
   
   
