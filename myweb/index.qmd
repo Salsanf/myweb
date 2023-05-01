@@ -1,0 +1,26 @@
+---
+about:
+  template: jolla
+  id: about-block
+  image: "img/salsa.jpg"
+  links:
+    - icon: github
+      text: Github
+      href: https://github.com/Salsanf
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/salsa-nur-farida-530264274/
+    - icon: envelope
+      text: Email
+      href: "mailto:salsafarida12@gmail.com"  
+---
+
+::: {#about-block}
+:::
+
+# Welcome to my website!
+
+On this website, you will find a selection of my published works, including scholarly articles, monographs, and translations. You will also find news and updates on my current research projects. I invite you to explore my website and learn more about my life's.
+Please feel free to [contact me](mailto: salsafarida12@gmail.com) if you have any questions.
+
+

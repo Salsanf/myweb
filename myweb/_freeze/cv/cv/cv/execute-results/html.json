@@ -1,0 +1,14 @@
+{
+  "hash": "e2f1da0aa16541bc770118a5802c23fa",
+  "result": {
+    "markdown": "---\nname: Salsa Nur\nsurname: Farida\nposition: \"Analis Data\"\npronouns: she\naddress: \"Bantul, D.I. Yogyakarta\"\nphone: 082137592607\nemail: \"salsafarida12@gmail.com\"\ngithub: Salsanf\nlinkedin: Salsa Nur Farida\ndate: \"April 2023\"\noutput:\n  vitae::awesomecv:\n    page_total: true\n---\n\n\n\n\n# Profil\n\n\nSaya seorang fresh graduated yang mampu melakukan riset, berkomunikasi, memiliki keinginan untuk belajar dan mampu beradaptasi dengan baik.\n\n# Pendidikan\n\n\n::: {.cell}\n::: {.cell-output .cell-output-stdout}\n```\n# A tibble: 2 x 5\n  what          when        with                          where     why      \n  <chr>         <chr>       <chr>                         <chr>     <list>   \n1 S1 Statistika 2019 - 2023 Universitas Negeri Yogyakarta Indonesia <chr [0]>\n2 Jurusan MIPA  2016 - 2019 SMA N 1 Kasihan               Indonesia <chr [0]>\n```\n:::\n:::\n\n\n# Pengalaman\n\n\n::: {.cell}\n::: {.cell-output .cell-output-stdout}\n```\n# A tibble: 3 x 3\n  what                      when with              \n  <chr>                    <dbl> <chr>             \n1 Staf Kaderisasi           2020 Himatika FMIPA UNY\n2 Kepala Bidang Kaderisasi  2021 Himatika FMIPA UNY\n3 Praktek Kerja Lapangan    2021 BMKG Sleman       \n```\n:::\n:::\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

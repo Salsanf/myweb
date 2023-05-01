@@ -1,0 +1,53 @@
+---
+name: Salsa Nur
+surname: Farida
+position: "Analis Data"
+pronouns: she
+address: "Bantul, D.I. Yogyakarta"
+phone: 082137592607
+email: "salsafarida12@gmail.com"
+github: Salsanf
+linkedin: Salsa Nur Farida
+date: "`r format(Sys.time(), '%B %Y')`"
+output:
+  vitae::awesomecv:
+    page_total: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+library(vitae)
+```
+
+# Profil
+
+
+Saya seorang fresh graduated yang mampu melakukan riset, berkomunikasi, memiliki keinginan untuk belajar dan mampu beradaptasi dengan baik.
+
+# Pendidikan
+
+```{r}
+library(tibble)
+tribble(
+  ~ Tingkat, ~ Tahun, ~ Institusi, ~ Tempat,
+  "S1 Statistika", "2019 - 2023", "Universitas Negeri Yogyakarta", "Indonesia",
+  "Jurusan MIPA", "2016 - 2019", "SMA N 1 Kasihan", "Indonesia",
+) %>%
+  detailed_entries(Tingkat, Tahun, Institusi, Tempat)
+```
+
+# Pengalaman
+
+```{r}
+tribble(
+  ~Year, ~Type, ~Desc,
+  2020, "Staf Kaderisasi", "Himatika FMIPA UNY",
+  2021, "Kepala Bidang Kaderisasi", "Himatika FMIPA UNY",
+  2021, "Praktek Kerja Lapangan", "BMKG Sleman",
+) %>%
+  brief_entries(
+    Type,
+    Year,
+    Desc
+  )
+```
